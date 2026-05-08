@@ -1,0 +1,22 @@
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="container hero-content">
+    <p class="hero-eyebrow">Welcome to the</p>
+    <h1 class="hero-title">{{ site.title }}</h1>
+    <p class="hero-tagline">{{ site.tagline }}</p>
+    <div class="hero-actions">
+      <a href="{{ '/research' | relative_url }}" class="btn btn-primary">Our Research</a>
+      <a href="{{ '/publications' | relative_url }}" class="btn btn-outline">Publications</a>
+    </div>
+  </div>
+  <div class="hero-scroll-hint" aria-hidden="true">
+    <span>Scroll</span>
+    <svg width="16" height="24" viewBox="0 0 16 24" fill="none">
+      <rect x="1" y="1" width="14" height="22" rx="7" stroke="currentColor" stroke-width="1.5"/>
+      <circle cx="8" cy="7" r="2" fill="currentColor">
+        <animate attributeName="cy" values="7;14;7" dur="1.8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0;1" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+    </svg>
+  </div>
+</section>

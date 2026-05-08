@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -e
+JEKYLL_ENV=production JEKYLL_NO_BUNDLER_REQUIRE=true jekyll build
+echo "Built to _site/"

@@ -1,0 +1,67 @@
+# -----------------------------------------------------------------------
+# Team members — edit this file to update the Team page
+# Fields:
+#   name:    Full name
+#   role:    Title / position
+#   bio:     Short bio (keep under ~200 characters)
+#   image:   Path relative to assets/images/ (leave blank for initials placeholder)
+#   links:   Optional external links (any of: scholar, twitter, github, linkedin, website, email)
+#   alumni:  Set to true to move the person to the Alumni section
+#   years:   Year range in the lab (e.g. "2022–2024")
+# -----------------------------------------------------------------------
+
+- name: Mojca Mattiazzi Usaj
+  role: Principal Investigator
+  bio: >
+    Coming soon.
+  image:
+  links:
+    scholar: "https://scholar.google.com/citations?user=rsTE7ncAAAAJ"
+    email: "mattiazzi@torontomu.ca"
+
+- name: Kenneth Antenor
+  role: PhD Student
+  bio: >
+    Coming soon.
+  image:
+  links: {}
+
+- name: Neroshan Sritharan
+  role: PhD Student
+  bio: >
+    Coming soon.
+  image:
+  links: {}
+
+- name: Natasha Salahshour
+  role: MSc Student
+  bio: >
+    Coming soon.
+  image:
+  links: {}
+
+- name: Allie Spangaro
+  role: MSc Student
+  bio: >
+    Coming soon.
+  image:
+  links: {}
+
+- name: Quinlan Cotnam
+  role: MSc Student
+  bio: >
+    Coming soon.
+  image:
+  links: {}
+
+- name: Aliyah Leano
+  role: Undergraduate Research Assistant
+  bio: >
+    Coming soon.
+  image:
+  links: {}
+
+- name: Mahta Jan
+  role: MSc Student
+  alumni: true
+  years: "2022–2024"

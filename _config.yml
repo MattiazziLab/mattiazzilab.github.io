@@ -1,0 +1,45 @@
+title: Mattiazzi Lab
+tagline: Quantitative single-cell biology to uncover how cells are organized, adopt distinct states and age.
+description: >-
+  Quantitative single-cell biology to uncover how cells are organized, adopt distinct states and age.
+url: ""
+baseurl: ""
+
+email: mattiazzi.lab@torontomu.ca
+lab_address: "TMU MaRS Research Facility, 661 University Ave, Unit 1105, Toronto ON M5G 1M1"
+
+author:
+  name: Mojca Mattiazzi Usaj
+  email: mattiazzi.lab@torontomu.ca
+
+nav_links:
+  - title: Research
+    url: /research
+  - title: Team
+    url: /team
+  - title: Publications
+    url: /publications
+  - title: News
+    url: /news
+  - title: Contact
+    url: /contact
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown
+highlighter: rouge
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore
+  - vendor
+  - .bundle
+  - node_modules

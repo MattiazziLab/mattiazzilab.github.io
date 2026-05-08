@@ -1,0 +1,147 @@
+// Team member card
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.team-card {
+  background: $white;
+  border-radius: 1rem;
+  border: 1px solid $dark-200;
+  overflow: hidden;
+  transition: transform $transition, box-shadow $transition;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(0,0,0,0.1);
+  }
+}
+
+.team-photo {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  background: linear-gradient(135deg, $dark-800, $dark-900);
+}
+
+.team-photo-placeholder {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background: linear-gradient(135deg, $blue-900, $dark-950);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  color: rgba($white, 0.3);
+  font-weight: 800;
+}
+
+.team-info {
+  padding: 1.5rem;
+}
+
+.team-name {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: $dark-900;
+  margin-bottom: 0.25rem;
+}
+
+.team-role {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: $accent;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.75rem;
+}
+
+.team-bio {
+  font-size: 0.875rem;
+  color: $dark-600;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.team-links {
+  display: flex;
+  gap: 0.75rem;
+
+  a {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: $dark-400;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    transition: color $transition;
+    &:hover { color: $accent; }
+  }
+}
+
+// PI spotlight (larger card at top)
+.pi-spotlight {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 3rem;
+  align-items: start;
+  background: $dark-100;
+  border-radius: 1.25rem;
+  padding: 2.5rem;
+  margin-bottom: 4rem;
+  border: 1px solid $dark-200;
+
+  @media (max-width: $bp-md) {
+    grid-template-columns: 1fr;
+  }
+
+  img, .team-photo-placeholder {
+    border-radius: 0.75rem;
+    aspect-ratio: 3/4;
+  }
+
+  .pi-details {
+    .team-role { font-size: 0.85rem; margin-bottom: 1rem; }
+    .team-bio  { font-size: 0.95rem; line-height: 1.75; }
+  }
+}
+
+// Research area cards
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.research-card {
+  background: $white;
+  border-radius: 1rem;
+  padding: 2rem;
+  border: 1px solid $dark-200;
+  border-top: 3px solid $accent;
+  transition: transform $transition, box-shadow $transition;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(0,0,0,0.08);
+  }
+
+  .rc-icon {
+    font-size: 2.25rem;
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+    line-height: 1.65;
+  }
+}

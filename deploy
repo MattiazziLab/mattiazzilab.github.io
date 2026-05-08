@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+set -e
+
+# Verify the site builds cleanly before pushing
+./build
+
+git add -A
+git commit -m "Deploy $(date +%Y-%m-%d)"
+git push origin main
+
+echo "Pushed — GitHub Actions will build and deploy."

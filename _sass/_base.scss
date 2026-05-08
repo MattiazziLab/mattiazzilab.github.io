@@ -1,0 +1,214 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: $font-base;
+  color: $dark-900;
+  background: $white;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  width: 100%;
+  max-width: $container-max;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+
+  @media (min-width: $bp-lg) { padding: 0 2rem; }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.2;
+  color: $dark-900;
+}
+
+h1 { font-size: clamp(2rem, 4vw, 3rem); }
+h2 { font-size: clamp(1.5rem, 3vw, 2.25rem); }
+h3 { font-size: 1.25rem; }
+
+p { color: $dark-600; }
+
+a {
+  color: $accent;
+  text-decoration: none;
+  transition: color $transition;
+  &:hover { color: $accent-hover; }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+ul { list-style: none; }
+
+section { padding: $section-gap 0; }
+
+.section-label {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: $accent;
+  margin-bottom: 0.75rem;
+}
+
+.section-title {
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  margin-bottom: 1rem;
+}
+
+.section-intro {
+  font-size: 1.1rem;
+  color: $dark-600;
+  max-width: 640px;
+  margin-bottom: 3rem;
+}
+
+// Buttons
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.75rem;
+  border-radius: 0.5rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all $transition;
+  border: 2px solid transparent;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: $accent;
+  color: $white;
+  &:hover {
+    background: $accent-hover;
+    color: $white;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 20px rgba($accent, 0.4);
+  }
+}
+
+.btn-outline {
+  background: transparent;
+  border-color: rgba($white, 0.4);
+  color: $white;
+  &:hover {
+    border-color: $white;
+    background: rgba($white, 0.08);
+    color: $white;
+  }
+}
+
+.btn-secondary {
+  background: $dark-100;
+  color: $dark-900;
+  border-color: $dark-200;
+  &:hover {
+    background: $dark-200;
+    color: $dark-900;
+  }
+}
+
+// Tag pill
+.tag {
+  display: inline-block;
+  background: $blue-100;
+  color: $blue-700;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.2rem 0.65rem;
+  border-radius: 9999px;
+  letter-spacing: 0.04em;
+}
+
+// Footer
+.site-footer {
+  background: $dark-950;
+  color: $dark-400;
+  padding-top: 4rem;
+}
+
+.footer-inner {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid $dark-800;
+
+  @media (max-width: $bp-md) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (max-width: $bp-sm) {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+.footer-logo {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: $white;
+  letter-spacing: -0.02em;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.footer-tagline {
+  font-size: 0.875rem;
+  color: $dark-400;
+  line-height: 1.6;
+  max-width: 300px;
+}
+
+.footer-links,
+.footer-contact {
+  h4 {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: $white;
+    margin-bottom: 1rem;
+  }
+
+  ul li {
+    margin-bottom: 0.5rem;
+  }
+
+  a {
+    font-size: 0.875rem;
+    color: $dark-400;
+    text-decoration: none;
+    transition: color $transition;
+    &:hover { color: $white; }
+  }
+
+  p {
+    font-size: 0.875rem;
+    color: $dark-400;
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.footer-bottom {
+  padding: 1.25rem 0;
+  text-align: center;
+
+  p {
+    font-size: 0.8rem;
+    color: $dark-600;
+  }
+}

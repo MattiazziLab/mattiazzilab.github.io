@@ -1,0 +1,153 @@
+# -----------------------------------------------------------------------
+# Publications — edit this file to update the Publications page
+# Fields:
+#   title:    Full paper title
+#   authors:  Author list as a string. Bold the PI name with **Mattiazzi Usaj M**
+#   journal:  Journal or conference name
+#   year:     Publication year (integer, used for grouping)
+#   link:     PubMed URL
+# -----------------------------------------------------------------------
+
+- title: "Vacuolar pH regulates clathrin-mediated endocytosis through TORC1 signaling during replicative aging"
+  authors: "Antenor KG, Lee-Dadswell J, Salahshour N, Grishchenko N, Swaleh S, Makhija G, Spangaro A, **Mattiazzi Usaj M**"
+  journal: "Journal of Cell Biology"
+  year: 2025
+  link: "https://pubmed.ncbi.nlm.nih.gov/40990464/"
+
+- title: "PIFiA: self-supervised approach for protein functional annotation from single-cell imaging data"
+  authors: "Razdaibiedina A, Brechalov A, Friesen H, **Mattiazzi Usaj M**, Masinas MPD, Garadi Suresh H, Wang K, Boone C, Ba J, Andrews B"
+  journal: "Molecular Systems Biology"
+  year: 2024
+  link: "https://pubmed.ncbi.nlm.nih.gov/38472305/"
+
+- title: "From pixels to insights: Machine learning and deep learning for bioimage analysis"
+  authors: "Jan M, Spangaro A, Lenartowicz M, **Mattiazzi Usaj M**"
+  journal: "BioEssays"
+  year: 2024
+  link: "https://pubmed.ncbi.nlm.nih.gov/38058114/"
+
+- title: "Identification of triazenyl indoles as inhibitors of fungal fatty acid biosynthesis with broad-spectrum activity"
+  authors: "Iyer KR, Li SC, Revie NM, Lou JW, Duncan D, Fallah S, Sanchez H, **Mattiazzi Usaj M**, et al."
+  journal: "Cell Chemical Biology"
+  year: 2023
+  link: "https://pubmed.ncbi.nlm.nih.gov/37369212/"
+
+- title: "Single-cell image analysis to explore cell-to-cell heterogeneity in isogenic populations"
+  authors: "**Mattiazzi Usaj M**, Yeung CHL, Friesen H, Boone C, Andrews BJ"
+  journal: "Cell Systems"
+  year: 2021
+  link: "https://pubmed.ncbi.nlm.nih.gov/34139168/"
+
+- title: "High-Throughput Imaging of Arrays of Fluorescently Tagged Yeast Mutant Strains"
+  authors: "**Mattiazzi Usaj M**, Lo DS, Grys BT, Andrews BJ"
+  journal: "Methods in Molecular Biology"
+  year: 2021
+  link: "https://pubmed.ncbi.nlm.nih.gov/34028720/"
+
+- title: "Systematic High-Content Screening of Fluorescently Tagged Yeast Double Mutant Strains"
+  authors: "Garadi Suresh H, **Mattiazzi Usaj M**"
+  journal: "Methods in Molecular Biology"
+  year: 2021
+  link: "https://pubmed.ncbi.nlm.nih.gov/34590270/"
+
+- title: "Systematic genetics and single-cell imaging reveal widespread morphological pleiotropy and cell-to-cell variability"
+  authors: "**Mattiazzi Usaj M**, Sahin N, Friesen H, Pons C, Usaj M, Masinas MPD, Shuteriqi E, Shkurin A, Aloy P, Morris Q, Boone C, Andrews BJ"
+  journal: "Molecular Systems Biology"
+  year: 2020
+  link: "https://pubmed.ncbi.nlm.nih.gov/32064787/"
+
+- title: "Exploring whole-genome duplicate gene retention with complex genetic interaction analysis"
+  authors: "Kuzmin E, VanderSluis B, Nguyen Ba AN, Wang W, Koch EN, Usaj M, Khurram A, **Mattiazzi Usaj M**, van Leeuwen J, Andrews BJ, Boone C, Myers CL"
+  journal: "Science"
+  year: 2020
+  link: "https://pubmed.ncbi.nlm.nih.gov/32586993/"
+
+- title: "Reporter-Based Synthetic Genetic Array Analysis: A Functional Genomics Approach for Investigating Transcript or Protein Abundance Using Fluorescent Proteins in Saccharomyces cerevisiae"
+  authors: "Göttert H, **Mattiazzi Usaj M**, Rosebrock AP, Andrews BJ"
+  journal: "Methods in Molecular Biology"
+  year: 2018
+  link: "https://pubmed.ncbi.nlm.nih.gov/29043651/"
+
+- title: "Systematic analysis of complex genetic interactions"
+  authors: "Kuzmin E, VanderSluis B, Wang W, Tan G, Deshpande R, Chen Y, Usaj M, Balint A, **Mattiazzi Usaj M**, van Leeuwen J, Koch EN, Pons C, et al."
+  journal: "Science"
+  year: 2018
+  link: "https://pubmed.ncbi.nlm.nih.gov/29674565/"
+
+- title: "A global genetic interaction network maps a wiring diagram of cellular function"
+  authors: "Costanzo M, VanderSluis B, Koch EN, Baryshnikova A, Pons C, Tan G, **Mattiazzi Usaj M**, et al."
+  journal: "Science"
+  year: 2016
+  link: "https://pubmed.ncbi.nlm.nih.gov/27708008/"
+
+- title: "Exploring genetic suppression interactions on a global scale"
+  authors: "Van Leeuwen J, Pons C, Mellor JC, Yamaguchi TN, Friesen H, **Mattiazzi Usaj M**, et al."
+  journal: "Science"
+  year: 2016
+  link: "https://pubmed.ncbi.nlm.nih.gov/27811238/"
+
+- title: "High-Content Screening for Quantitative Cell Biology"
+  authors: "**Mattiazzi Usaj M**, Styles EB, Verster AJ, Friesen H, Boone C, Andrews BJ"
+  journal: "Trends in Cell Biology"
+  year: 2016
+  link: "https://pubmed.ncbi.nlm.nih.gov/27118708/"
+
+- title: "Yeast Saccharomyces cerevisiae adiponectin receptor homolog Izh2 is involved in the regulation of zinc, phospholipid and pH homeostasis"
+  authors: "**Mattiazzi Usaj M**, Prelec M, Brložnik M, Primo C, Curk T, Ščančar J, Yenush L, Petrovič U"
+  journal: "Metallomics"
+  year: 2015
+  link: "https://pubmed.ncbi.nlm.nih.gov/26067383/"
+
+- title: "Genome-wide localization study of yeast Pex11 identifies peroxisome–mitochondria interactions through the ERMES complex"
+  authors: "**Mattiazzi Usaj M**, Brložnik M, Kaferle P, Žitnik M, Wolinski H, Leitner F, Kohlwein SD, Zupan B, Petrovič U"
+  journal: "Journal of Molecular Biology"
+  year: 2015
+  link: "https://pubmed.ncbi.nlm.nih.gov/25769804/"
+
+- title: "The mammalian-membrane two-hybrid assay (MaMTH) for probing membrane-protein interactions in human cells"
+  authors: "Petschnigg J, Groisman B, Kotlyar M, Taipale M, Zheng Y, Kurat CF, Sayad A, Sierra JR, **Mattiazzi Usaj M**, Snider J, et al."
+  journal: "Nature Methods"
+  year: 2014
+  link: "https://pubmed.ncbi.nlm.nih.gov/24658140/"
+
+- title: "Determination of toxicity of neonicotinoids on the genome level using chemogenomics in yeast"
+  authors: "**Mattiazzi Usaj M**, Kaferle P, Toplak A, Trebše P, Petrovič U"
+  journal: "Chemosphere"
+  year: 2014
+  link: "https://pubmed.ncbi.nlm.nih.gov/24262822/"
+
+- title: "Functional genomics in the study of yeast cell polarity: moving in the right direction"
+  authors: "Styles E, Youn JY, **Mattiazzi Usaj M**, Andrews B"
+  journal: "Philosophical Transactions of the Royal Society B"
+  year: 2013
+  link: "https://pubmed.ncbi.nlm.nih.gov/24062589/"
+
+- title: "Neurotoxic phospholipase A2 toxicity model: an insight from mammalian cells"
+  authors: "Vardjan N, **Mattiazzi M**, Rowan E, Križaj I, Petrovič U, Petan T"
+  journal: "Communicative & Integrative Biology"
+  year: 2013
+  link: "https://pubmed.ncbi.nlm.nih.gov/23710275/"
+
+- title: "Yeast as a model eukaryote in toxinology: a functional genomics approach"
+  authors: "**Mattiazzi M**, Petrovič U, Križaj I"
+  journal: "Toxicon"
+  year: 2012
+  link: "https://pubmed.ncbi.nlm.nih.gov/22465496/"
+
+- title: "A neurotoxic phospholipase A2 impairs yeast amphiphysin activity and reduces endocytosis"
+  authors: "**Mattiazzi M**, Sun Y, Wolinski H, Bavdek A, Petan T, Anderluh G, Kohlwein SD, Petrovič U"
+  journal: "PLOS ONE"
+  year: 2012
+  link: "https://pubmed.ncbi.nlm.nih.gov/22844417/"
+
+- title: "Genetic interactions between a phospholipase A2 and the Rim101 pathway components in S. cerevisiae"
+  authors: "**Mattiazzi M**, Jambhekar A, Kaferle P, DeRisi JL, Križaj I, Petrovič U"
+  journal: "Molecular Genetics and Genomics"
+  year: 2010
+  link: "https://pubmed.ncbi.nlm.nih.gov/20379744/"
+
+- title: "Imaging-based live cell yeast screen identifies novel factors involved in peroxisome assembly"
+  authors: "Wolinski H, Petrovič U, **Mattiazzi M**, Petschnigg J, Heise B, Natter K, Kohlwein SD"
+  journal: "Journal of Proteome Research"
+  year: 2009
+  link: "https://pubmed.ncbi.nlm.nih.gov/19118449/"

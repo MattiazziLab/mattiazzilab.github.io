@@ -1,0 +1,123 @@
+.publications-year-group {
+  margin-bottom: 3rem;
+}
+
+.pub-year-heading {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: $dark-900;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid $dark-200;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+
+  &::before {
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 1.25em;
+    background: $accent;
+    border-radius: 2px;
+  }
+}
+
+.pub-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.pub-entry {
+  background: $white;
+  border: 1px solid $dark-200;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  transition: border-color $transition, box-shadow $transition;
+
+  &:hover {
+    border-color: $blue-300;
+    box-shadow: 0 4px 16px rgba($accent, 0.08);
+  }
+}
+
+.pub-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: $dark-900;
+  margin-bottom: 0.4rem;
+  line-height: 1.4;
+
+  a {
+    color: $dark-900;
+    text-decoration: none;
+    &:hover { color: $accent; }
+  }
+}
+
+.pub-authors {
+  font-size: 0.875rem;
+  color: $dark-600;
+  margin-bottom: 0.4rem;
+
+  .pub-author-highlight {
+    font-weight: 600;
+    color: $dark-800;
+  }
+}
+
+.pub-venue {
+  font-size: 0.85rem;
+  color: $dark-400;
+  font-style: italic;
+  margin-bottom: 0.75rem;
+}
+
+.pub-links {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+
+  a {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: $accent;
+    text-decoration: none;
+    border: 1px solid $blue-300;
+    padding: 0.2rem 0.6rem;
+    border-radius: 0.3rem;
+    transition: all $transition;
+
+    &:hover {
+      background: $accent;
+      color: $white;
+      border-color: $accent;
+    }
+  }
+}
+
+.pub-filters {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 2.5rem;
+
+  button {
+    padding: 0.4rem 1rem;
+    border-radius: 9999px;
+    border: 1px solid $dark-200;
+    background: $white;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: $dark-600;
+    cursor: pointer;
+    transition: all $transition;
+
+    &:hover, &.active {
+      background: $accent;
+      border-color: $accent;
+      color: $white;
+    }
+  }
+}

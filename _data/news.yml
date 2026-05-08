@@ -1,0 +1,25 @@
+# -----------------------------------------------------------------------
+# News & Announcements — edit this file to update the News page
+# Fields:
+#   date:  ISO date (YYYY-MM-DD)
+#   title: Short headline
+#   body:  One or two sentences of detail
+# -----------------------------------------------------------------------
+
+- date: 2026-04-01
+  title: "Congratulations to our undergraduate thesis students!"
+  body: >
+    A big congratulations to our undergraduate thesis students Aliyah, Asal, Gurjyot and Jamie on their successful
+    defences!
+
+- date: 2026-01-01
+  title: "Mojca receives the Dean's Scholarly, Research and Creative Activity Award"
+  body: >
+    Mojca has been recognized as a recipient of the Dean's Scholarly, Research and Creative
+    Activity Award. Congratulations!
+
+- date: 2025-11-03
+  title: "Antenor et al. published in Journal of Cell Biology"
+  body: >
+    Our paper "Vacuolar pH regulates clathrin-mediated endocytosis through TORC1 signaling
+    during replicative aging" is now published in JCB. Congratulations to all co-authors!
