@@ -31,7 +31,7 @@ subtitle: A curious, collaborative group of scientists working at the intersecti
 <span class="section-label">Lab members</span>
 
 <div class="team-grid">
-  {% assign members = site.data.team | where_exp: "m", "m.role != 'Principal Investigator' and m.alumni != true" %}
+  {% assign members = site.data.team | where_exp: "m", "m.role != 'Principal Investigator'" | where_exp: "m", "m.alumni == nil" %}
   {% for member in members %}
   <div class="team-card">
     {% if member.image %}
